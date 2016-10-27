@@ -10,12 +10,19 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="/css/app.css">
-        <script src="/js/app.js"></script>    
+        <script src="/js/app.js"></script> 
+        @yield('header-assets')   
     </head>
     <body>
         @include('partials.navbar')
         <div class="container">
-            @yield('body-content')
+            <div class="flex-center position-ref full-height">
+                <div class="content">
+                    @yield('body-content')
+                </div>
+            </div>
         </div>
+        @include('partials.footer')
+        @yield('footer-assets')
     </body>
 </html>
