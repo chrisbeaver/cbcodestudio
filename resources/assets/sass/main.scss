@@ -1,0 +1,11 @@
+// Navbar
+.navbar {
+    min-height: 80px;
+}
+.navbar li {
+    text-transform: uppercase;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form , .navbar-default .navbar-header{
+    border-color: #d3e0e9;
+    padding-top: 18px;
+}

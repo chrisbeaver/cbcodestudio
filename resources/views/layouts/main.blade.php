@@ -10,10 +10,12 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="/css/app.css">
-
-        
+        <script src="/js/app.js"></script>    
     </head>
     <body>
-        @yield('body-content')
+        @include('partials.navbar')
+        <div class="container">
+            @yield('body-content')
+        </div>
     </body>
 </html>
