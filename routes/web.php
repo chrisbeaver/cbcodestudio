@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('clients', 'ClientController@index');
 Route::get('clients/testimonials', 'ClientController@testimonials');
+
+Route::get('projects', 'ProjectController@index');

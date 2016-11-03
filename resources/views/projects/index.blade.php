@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('body-content')
-<h1>Clients</h1>
+<h1>Projects</h1>
 @endsection
